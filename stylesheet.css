@@ -1,16 +1,33 @@
 body {
     text-align: center;
     margin: 0;
+    font-family: arial,sans-serif
 }
 
 .header {
     background-color: lightcoral;
-    margin-bottom: 75px;
+    margin-bottom: 180px;
     display: block;
+    height: 67.2px;
+}
+
+img {
+    width: 20%;
+    height: 20%;
 }
 
 ul, li {
     display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 24px;
 }
 
 .right-links {
@@ -20,10 +37,14 @@ ul, li {
     float: left;
 }
 
-.searchbar {
-    width: 65%;
-    background-color: transparent;
+.main-search {
     display: block;
+}
+
+.searchbar {
+    width: 45%;
+    background-color: transparent;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 37px;
@@ -32,3 +53,4 @@ ul, li {
     margin-bottom: 25px;
     border: 1px solid #dfe1e5;
 }
+
