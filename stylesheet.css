@@ -9,6 +9,7 @@ body {
     margin-bottom: 180px;
     display: block;
     height: 67.2px;
+    font-size: 14px;
 }
 
 img {
@@ -42,7 +43,7 @@ li {
 }
 
 .searchbar {
-    width: 45%;
+    width: 584px;
     background-color: transparent;
     display: inline-block;
     margin-left: auto;
@@ -54,3 +55,23 @@ li {
     border: 1px solid #dfe1e5;
 }
 
+.buttons-feeling > button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    line-height:27px;
+    text-align: center;
+}
+.google-language {
+    font-size: small;
+    color: #222;
+}
+.goolge-language > a{
+    color: #1a0dab;
+    text-decoration: none;
+}
